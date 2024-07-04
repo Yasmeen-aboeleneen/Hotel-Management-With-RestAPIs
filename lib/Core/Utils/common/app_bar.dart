@@ -1,12 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hotel_management/Core/Constants/theme/colors.dart';
 import 'package:hotel_management/Core/Constants/theme/text_theme.dart';
- 
+
 AppBar buildAppBar(BuildContext context, String? title) {
   return AppBar(
-    backgroundColor: AppColors.kGreenColor,
+    backgroundColor: Color.fromARGB(255, 65, 163, 191),
     elevation: 0,
     leading: IconButton(
       onPressed: () {
