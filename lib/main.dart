@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
- import 'package:hotel_management/Views/Splash/SplashScreen.dart';
-
+import 'package:hotel_management/Views/Auth/LoginScreen.dart';
+ 
 void main() {
   runApp(const MyApp());
 }
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+      useInheritedMediaQuery: true,
       splitScreenMode: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Splashscreen(),
+        home: const Loginscreen(),
       ),
     );
   }
