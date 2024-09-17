@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:hotel_management/Core/Constants/theme/colors.dart';
+import 'package:hotel_management/Core/Constants/colors.dart';
 
 class CustomButton extends StatelessWidget {
   final VoidCallback? onTap;
