@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hotel_management/Core/Constants/colors.dart';
 import 'package:hotel_management/Core/widgets/custom_button.dart';
-import 'package:hotel_management/Views/Auth/LoginScreen.dart';
+import 'package:hotel_management/Views/Auth/login_screen.dart';
 import 'package:video_player/video_player.dart';
 
 class Splashscreen extends StatefulWidget {

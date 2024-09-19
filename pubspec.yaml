@@ -53,6 +53,8 @@ flutter:
   assets:
     - assets\videos\video1.mp4
     - assets\images\pic1.jpeg
+    - assets\images\facebook.png
+    - assets\images\google.jpg
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
